@@ -1,0 +1,14 @@
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Clients.deps.json
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Clients.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Clients.pdb
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.pdb
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.csprojAssemblyReference.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.AssemblyInfoInputs.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.AssemblyInfo.cs
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.csproj.CoreCompileInputs.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.csproj.CopyComplete
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\obj\Debug\netcoreapp3.1\Devops.Deploy.Clients.pdb
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Objects.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Clients\bin\Debug\netcoreapp3.1\Devops.Deploy.Objects.pdb

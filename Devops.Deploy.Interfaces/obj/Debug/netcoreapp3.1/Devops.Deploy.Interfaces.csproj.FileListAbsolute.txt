@@ -1,0 +1,8 @@
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\bin\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.deps.json
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\bin\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\bin\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.pdb
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\obj\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.AssemblyInfoInputs.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\obj\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.AssemblyInfo.cs
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\obj\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\obj\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Interfaces\obj\Debug\netcoreapp3.1\Devops.Deploy.Interfaces.pdb
