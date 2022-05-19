@@ -1,5 +1,4 @@
-﻿using System;
-using Devops.Deploy.Interfaces;
+﻿using Devops.Deploy.Interfaces;
 
 namespace Devops.Deploy.Clients
 {

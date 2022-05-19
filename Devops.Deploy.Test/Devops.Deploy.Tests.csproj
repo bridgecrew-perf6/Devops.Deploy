@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -18,6 +18,7 @@
     <ProjectReference Include="..\Devops.Deploy.Clients\Devops.Deploy.Clients.csproj" />
     <ProjectReference Include="..\Devops.Deploy.Injectors\Devops.Deploy.Injectors.csproj" />
     <ProjectReference Include="..\Devops.Deploy.Interfaces\Devops.Deploy.Interfaces.csproj" />
+    <ProjectReference Include="..\Devops.Deploy.Records\Devops.Deploy.Records.csproj" />
   </ItemGroup>
 
 </Project>

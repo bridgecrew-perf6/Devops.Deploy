@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj"
@@ -46,8 +46,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -84,14 +84,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj"
@@ -106,8 +106,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -144,14 +144,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj"
@@ -172,8 +172,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Ninject": {
               "target": "Package",
@@ -216,15 +216,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj": {
+                "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -234,8 +238,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -272,17 +276,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj"
+              },
+              "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj": {
+                "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj"
               }
             }
           }
@@ -294,8 +301,64 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj",
+        "projectName": "Devops.Deploy.Records",
+        "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj",
+        "packagesPath": "C:\\Users\\wilken.lues\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wilken.lues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -332,14 +395,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Extensions\\Devops.Deploy.Extensions.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Extensions\\Devops.Deploy.Extensions.csproj"
@@ -357,8 +420,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -395,14 +458,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Clients\\Devops.Deploy.Clients.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Clients\\Devops.Deploy.Clients.csproj"
@@ -412,6 +475,9 @@
               },
               "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj"
+              },
+              "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj": {
+                "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj"
               }
             }
           }
@@ -423,8 +489,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

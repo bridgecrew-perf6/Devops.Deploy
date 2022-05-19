@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "coverlet.collector/1.2.0": {
         "type": "package",
         "build": {
@@ -917,7 +917,7 @@
       },
       "Devops.Deploy.Clients/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Devops.Deploy.Interfaces": "1.0.0",
           "Devops.Deploy.Objects": "1.0.0"
@@ -931,7 +931,7 @@
       },
       "Devops.Deploy.Extensions/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Devops.Deploy.Interfaces": "1.0.0"
         },
@@ -944,7 +944,7 @@
       },
       "Devops.Deploy.Injectors/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Devops.Deploy.Interfaces": "1.0.0",
           "Devops.Deploy.Objects": "1.0.0",
@@ -960,7 +960,10 @@
       },
       "Devops.Deploy.Interfaces/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Devops.Deploy.Records": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Devops.Deploy.Interfaces.dll": {}
         },
@@ -970,9 +973,10 @@
       },
       "Devops.Deploy.Objects/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Devops.Deploy.Interfaces": "1.0.0"
+          "Devops.Deploy.Interfaces": "1.0.0",
+          "Devops.Deploy.Records": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Devops.Deploy.Objects.dll": {}
@@ -981,9 +985,19 @@
           "bin/placeholder/Devops.Deploy.Objects.dll": {}
         }
       },
+      "Devops.Deploy.Records/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Devops.Deploy.Records.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Devops.Deploy.Records.dll": {}
+        }
+      },
       "Devops.Deploy.Services/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Devops.Deploy.Extensions": "1.0.0",
           "Devops.Deploy.Interfaces": "1.0.0"
@@ -3620,6 +3634,11 @@
       "path": "../Devops.Deploy.Objects/Devops.Deploy.Objects.csproj",
       "msbuildProject": "../Devops.Deploy.Objects/Devops.Deploy.Objects.csproj"
     },
+    "Devops.Deploy.Records/1.0.0": {
+      "type": "project",
+      "path": "../Devops.Deploy.Records/Devops.Deploy.Records.csproj",
+      "msbuildProject": "../Devops.Deploy.Records/Devops.Deploy.Records.csproj"
+    },
     "Devops.Deploy.Services/1.0.0": {
       "type": "project",
       "path": "../Devops.Deploy.Services/Devops.Deploy.Services.csproj",
@@ -3627,10 +3646,11 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Devops.Deploy.Clients >= 1.0.0",
       "Devops.Deploy.Injectors >= 1.0.0",
       "Devops.Deploy.Interfaces >= 1.0.0",
+      "Devops.Deploy.Records >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Ninject >= 3.3.5",
       "coverlet.collector >= 1.2.0",
@@ -3659,14 +3679,14 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Clients\\Devops.Deploy.Clients.csproj": {
               "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Clients\\Devops.Deploy.Clients.csproj"
@@ -3676,6 +3696,9 @@
             },
             "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj": {
               "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Interfaces\\Devops.Deploy.Interfaces.csproj"
+            },
+            "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj": {
+              "projectPath": "C:\\Users\\wilken.lues\\source\\repos\\Devops.Deploy\\Devops.Deploy.Records\\Devops.Deploy.Records.csproj"
             }
           }
         }
@@ -3687,8 +3710,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

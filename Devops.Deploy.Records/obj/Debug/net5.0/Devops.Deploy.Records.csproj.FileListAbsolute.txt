@@ -1,0 +1,12 @@
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\bin\Debug\net5.0\Devops.Deploy.Records.deps.json
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\bin\Debug\net5.0\Devops.Deploy.Records.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\bin\Debug\net5.0\ref\Devops.Deploy.Records.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\bin\Debug\net5.0\Devops.Deploy.Records.pdb
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.AssemblyInfoInputs.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.AssemblyInfo.cs
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.csproj.CoreCompileInputs.cache
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\ref\Devops.Deploy.Records.dll
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.pdb
+C:\Users\wilken.lues\source\repos\Devops.Deploy\Devops.Deploy.Records\obj\Debug\net5.0\Devops.Deploy.Records.csprojAssemblyReference.cache

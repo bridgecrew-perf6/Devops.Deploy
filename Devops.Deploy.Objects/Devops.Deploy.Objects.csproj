@@ -1,11 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Devops.Deploy.Interfaces\Devops.Deploy.Interfaces.csproj" />
+    <ProjectReference Include="..\Devops.Deploy.Records\Devops.Deploy.Records.csproj" />
   </ItemGroup>
 
 </Project>

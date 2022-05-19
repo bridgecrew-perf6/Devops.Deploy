@@ -2,6 +2,5 @@
 {
     public interface IReleaseService
     {
-        public void Foo(IRelease release);
     }
 }

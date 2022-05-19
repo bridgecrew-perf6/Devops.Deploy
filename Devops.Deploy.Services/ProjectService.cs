@@ -1,6 +1,5 @@
 ﻿using Devops.Deploy.Extensions;
 using Devops.Deploy.Interfaces;
-using System;
 
 namespace Devops.Deploy.Services
 {
@@ -10,9 +9,6 @@ namespace Devops.Deploy.Services
         {
 
         }
-        public void Foo(IProject project)
-        {
-            project.Foo();
-        }
     }
+   
 }

@@ -9,7 +9,11 @@ namespace Devops.Deploy.Tests
     {
         public ProjectTests()
         {
-           
+            var kernel = new StandardKernel(new GeneralInjector());
+
+            var ProjectService = kernel.Get<ProjectClient>().projectService;
+            var Project = kernel.Get<ProjectClient>().project;
+
         }
         //[**Projects**](#project) can have zero or more [**releases**](#release),
         //which can be released to an [**environment**](#environment)
@@ -22,12 +26,8 @@ namespace Devops.Deploy.Tests
 
 
         //test project has 0 or more releases
-        interface Project
-        {
-            string Name { get; set; }
-        }
 
-        
+
         //releases can be released to environment
 
 

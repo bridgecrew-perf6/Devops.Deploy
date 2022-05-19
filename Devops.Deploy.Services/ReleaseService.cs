@@ -1,6 +1,6 @@
 ﻿using Devops.Deploy.Extensions;
 using Devops.Deploy.Interfaces;
-using System;
+using System.Collections.Generic;
 
 namespace Devops.Deploy.Services
 {
@@ -10,9 +10,7 @@ namespace Devops.Deploy.Services
         {
 
         }
-        public void Foo(IRelease release)
-        {
-            release.Foo();
-        }
+      
+     
     }
 }

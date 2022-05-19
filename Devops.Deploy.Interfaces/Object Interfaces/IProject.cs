@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Devops.Deploy.Interfaces
+﻿namespace Devops.Deploy.Interfaces
 {
     public interface IProject
     {

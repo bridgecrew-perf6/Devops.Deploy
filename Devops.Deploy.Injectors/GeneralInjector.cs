@@ -12,7 +12,6 @@ namespace Devops.Deploy.Injectors
             this.Bind<IReleaseService>().To<ReleaseService>();
             this.Bind<IRelease>().To<Release>();
 
-            this.Bind<IProjectService>().To<ProjectService>();
             this.Bind<IProject>().To<Project>();
         }
     }

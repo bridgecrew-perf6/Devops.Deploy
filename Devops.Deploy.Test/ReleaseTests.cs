@@ -13,7 +13,6 @@ namespace Devops.Deploy.Tests
 
             var ReleaseService = kernel.Get<ReleaseClient>().releaseService;
             var Release = kernel.Get<ReleaseClient>().release;
-            ReleaseService.Foo(Release);
 
 
         }
@@ -22,6 +21,12 @@ namespace Devops.Deploy.Tests
 
 
         //Project has environment
+        [Fact]
+        public void When_Project_Instantiated_Has_Environment()
+        {
+
+        }
+
         //ProjectEnvironment has releases
         //clean unmarked releases
         //Release has deployments

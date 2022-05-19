@@ -2,6 +2,5 @@
 {
     public interface IProjectService
     {
-        public void Foo(IProject project);
     }
 }
